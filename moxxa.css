@@ -1,0 +1,139 @@
+body {
+    background-color: #ffffff;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease;
+    user-select: none;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  header {
+    background-color: #ffffff;
+  }
+  header img {
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    padding: 1.5% 0%;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+    background: linear-gradient(to right, #28661e, #28661e);
+    margin: 0 auto;
+    padding: 0.5% 0;
+  }
+  nav li {
+    display: inline-block;
+    padding: 0 2%;
+  }
+  
+  nav li a {
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    transition: font-weight 0.3s ease;
+  }
+  
+  nav li a:hover {
+    font-weight: bold;
+    color: #ffffff;
+  }
+  section {
+    margin: 20px;
+  }
+  .promo-area {
+    background: linear-gradient(to right, #ffffff97, #ffffff3d);
+    background-image: url('kafe img2.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  
+  }
+   /* .promo-area p {
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+   */
+  
+   .card-section {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  
+  
+  .card {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background-image 0.5s ease, transform 0.5s ease;
+  }
+  .card:hover {
+    background-image: url('');
+    transform: scale(1.05);
+    background-color: #28661e;
+  }
+  
+  .card h2 {
+    color: #000000;
+  }
+  
+  .card p {
+    color: #000000;
+    user-select: none;
+  }
+  
+  .card-image {
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transition: filter 0.5s ease;
+  
+  }
+  .card:hover .card-image {
+    filter: none;
+  }
+  
+  footer  {
+    display: flex;
+    position: flex;
+    bottom: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #28661e, #28661e);
+    color: #fff;
+    background-color: #ffffff;
+
+  
+  
+    /* position: fixed; */
+    bottom: 0;
+    width: 80%;
+  }
